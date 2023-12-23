@@ -1,0 +1,7 @@
+SELECT
+  year_released,
+  language,
+  COUNT(*) AS number_of_movies
+FROM movies
+GROUP BY year_released, language
+ORDER BY year_released ASC;

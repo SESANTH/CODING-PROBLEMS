@@ -1,0 +1,5 @@
+SELECT
+  language,
+  COUNT(*) AS number_of_movies
+FROM movies
+GROUP BY language;

@@ -1,0 +1,5 @@
+SELECT
+  movie_title,
+  imdb_rating,
+  year_released
+FROM movies;
